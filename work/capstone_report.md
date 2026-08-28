@@ -12,7 +12,7 @@ This research investigates which historical content signals—such as content ag
 
 
 **1. Problem framing**
-This analysis provides decision-support for editorial resource allocation. The unit of analysis is a single pseudonymized content item (a webpage) evaluated over a fixed 1-month period. The final output is a ranked queue of content URLs mapped to specific action labels (e.g., COMPREHENSIVE_REFRESH) and reason codes.
+This analysis provides decision-support for FlyRank's core editorial resource allocation problem: determining exactly which aging content assets across a massive client portfolio are worth the high cost of human-driven refreshes. The unit of analysis is a single pseudonymized content item (a webpage) evaluated over a fixed 1-month period. The final output is a ranked queue of content URLs mapped to specific action labels (e.g., COMPREHENSIVE_REFRESH) and reason codes.
 A human editor uses this queue to prioritize which articles receive writing budget. The cost of a wrong call is high: updating content requires expensive human writer hours ($150+ per article). If we recommend refreshing content that has no underlying potential, we waste editorial budget for zero SEO gain. Machine Learning helps here because fixed rules ignore the contextual, non-linear decay curves of different content types.
 
 
