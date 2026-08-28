@@ -7,7 +7,7 @@ Capstone Report —
 **Date:** August 28, 2026
 
 
-0. Abstract
+**0. Abstract**
 This research investigates which historical content signals—such as content age, update staleness, and CMS template type—are directionally associated with organic search visibility. The analysis was conducted on a pseudonymized 79-million-row cloud data warehouse, measuring content performance over a fixed 31-day window (March 2026). To isolate these signals, I compared a fixed-rule business heuristic against a Random Forest Regressor, utilizing a grouped-client data split to prevent domain memorization. The baseline heuristic actually outperformed the machine learning model, proving that complex algorithms can severely overfit to domain authority when generalizing to unseen clients. Despite this, feature importances successfully quantified that staleness and age account for over 96% of content performance variance compared to CMS templates. Ultimately, the model's logic was translated into a cost-evaluated, ranked action playbook that provides decision-support for editorial teams allocating content refresh resources.
 
 
